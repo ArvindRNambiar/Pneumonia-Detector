@@ -1,4 +1,4 @@
-**Project Title: Pneumonia Detection Using CNNs**
+**Project Title: Pneumonia Detection Using CNNs with 96% Accuracy**
 
 **Overview:**
 
