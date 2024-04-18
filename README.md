@@ -24,13 +24,13 @@ c) Creating a dataset from image folders using tf.keras.utils.image_dataset_from
 
 d) Normalizing image data to enhance training efficiency.
 
-**Train-Test-Validation Split:**
+2) **Train-Test-Validation Split:**
 
 a) Dividing the dataset into training, testing, and validation sets for model evaluation.
 
 b) Monitoring model performance on the validation set to prevent overfitting.
 
-**Building the CNN Model:**
+3) **Building the CNN Model:**
 
 a) Creating a sequential model using models.Sequential().
 
@@ -44,7 +44,7 @@ e) Adding fully connected layers with ReLU activation for further feature learni
 
 f) Using a sigmoid activation in the output layer for binary classification.
 
-**Model Compilation and Training:**
+4) **Model Compilation and Training:**
 
 a) Compiling the model with the Adam optimizer and binary cross-entropy loss function.
 
@@ -52,7 +52,7 @@ b) Training the model on the training data while monitoring performance on the v
 
 c) Adjusting the number of epochs based on validation results.
 
-**Model Evaluation:**
+5) **Model Evaluation:**
 
 a) Assessing model performance on unseen testing data.
 
@@ -60,7 +60,7 @@ b) Calculating metrics such as accuracy, precision, and recall.
 
 c) Printing the final evaluation metrics.
 
-**Saving and Loading the Model:**
+6) **Saving and Loading the Model:**
 
 a) Saving the trained model for future use.
 
